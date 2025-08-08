@@ -1,19 +1,22 @@
-# Simple Python Calculator
+# 🎮 Python Trivia Game (KBC Style)
 
-This is a beginner-friendly command-line calculator built using Python.  
-It performs basic arithmetic operations: **addition**, **subtraction**, **multiplication**, and **division** using user input.
+This is a command-line based trivia game inspired by **Kaun Banega Crorepati (KBC)**.  
+It challenges the player with multiple-choice questions and rewards them with increasing prize money for every correct answer.
 
-## 📌 Purpose
+## 📌 Features
 
-This was my **first Python project**, aimed at:
-- Practicing basic syntax and I/O handling
-- Understanding error handling with `try-except`
-- Learning `match-case` (Python 3.10+)
-- Getting comfortable with version control and uploading to GitHub
+- 11 trivia questions from general knowledge
+- 4 options for each question (MCQ style)
+- Win increasing amounts of money as you answer correctly
+- Game ends immediately on a wrong answer
+- Console-based — no external libraries needed
 
 ## 🚀 How to Run
 
-Make sure you're using **Python 3.10+** (for match-case support)
+Make sure you have **Python 3.x** installed.
+
+1. Clone or download the repo
+2. Run the Python file:
 
 ```bash
 python main.py
